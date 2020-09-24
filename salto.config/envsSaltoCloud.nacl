@@ -1,4 +1,12 @@
 envs {
   envs = [
+    {
+      uuid = "11b7bf63-8443-4fe9-a1c1-f924298ebcce"
+      folderName = "Dev"
+    },
+    {
+      uuid = "bdb30319-fba6-4332-84c6-0a4eaffed975"
+      folderName = "Staging"
+    },
   ]
 }

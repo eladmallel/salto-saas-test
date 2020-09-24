@@ -1,0 +1,9 @@
+salesforce.ListView Lead_LATAM_Lead {
+  fullName = "Lead.LATAM_Lead"
+  filterScope = "Queue"
+  label = "LATAM"
+  queue = "LATAM"
+  _parent = [
+    salesforce.Lead,
+  ]
+}
