@@ -36,6 +36,10 @@ salesforce.Layout Lead_Support_Layout {
               behavior = "Required"
               field = salesforce.Lead.field.Status
             },
+            {
+              behavior = "Edit"
+              field = salesforce.Lead.field.Level_of_Interest__c
+            },
           ]
         },
         {

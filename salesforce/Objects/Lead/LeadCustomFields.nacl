@@ -1,0 +1,29 @@
+type salesforce.Lead {
+  salesforce.Picklist Level_of_Interest__c {
+    apiName = "Lead.Level_of_Interest__c"
+    label = "Level of Interest"
+    _required = false
+    valueSet = [
+      {
+        fullName = "Hot"
+        default = false
+        label = "Hot"
+      },
+      {
+        fullName = "Medium"
+        default = false
+        label = "Medium"
+      },
+      {
+        fullName = "Cold"
+        default = false
+        label = "Cold"
+      },
+    ]
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+    sorted = false
+  }
+}
