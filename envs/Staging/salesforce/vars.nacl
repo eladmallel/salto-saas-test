@@ -1,0 +1,3 @@
+vars {
+    queueUser = "elad.mallel+dev9@salto.io"
+}

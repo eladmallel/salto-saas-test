@@ -4,7 +4,7 @@ salesforce.Queue NA {
   name = "NA"
   queueMembers = {
     users = {
-      user = "elad.mallel+dev8@salto.io"
+      user = var.queueUser
     }
   }
   queueSobject = {
